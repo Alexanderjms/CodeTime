@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeTime</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .roboto-mono {
+        font-family: "Roboto Mono", monospace;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+
+  <body
+    class="bg-[#1a1b24] roboto-mono flex items-center justify-center min-h-screen"
+  >
+    <div class="text-xl sm:text-sm md:text-lg lg:text-2xl xl:text-3xl">
+      <div class="flex justify-center items-center">
+        <p class="text-[#8b65bb] m-0">const</p>
+        <p class="text-[#ac587f] ml-2 m-0">currenTime = {</p>
+      </div>
+
+      <div class="text-[#3fb5b0] leading-tight mt-1">
+        <h3 id="day" class="m-0">day: <span class="text-blue-300">,</span></h3>
+        <h3 id="month" class="m-0">
+          month: <span class="text-orange-300">,</span>
+        </h3>
+        <h3 id="year" class="m-0">
+          year: <span class="text-orange-300">,</span>
+        </h3>
+        <h3 id="dayOfWeek" class="m-0">
+          dayOfWeek: <span class="text-green-300">,</span>
+        </h3>
+        <h3 id="hour" class="m-0">
+          hour: <span class="text-orange-300">,</span>
+        </h3>
+        <h3 id="minute" class="m-0">
+          minute: <span class="text-orange-300">,</span>
+        </h3>
+        <h3 id="second" class="m-0">
+          second: <span class="text-orange-300">,</span>
+        </h3>
+        <h3 id="dayProgress" class="m-0">
+          dayProgress: <span class="text-yellow-300">,</span>
+        </h3>
+      </div>
+
+      <pre class="text-[#ac587f] m-0">};</pre>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
